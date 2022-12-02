@@ -1,0 +1,24 @@
+lire : Console.WriteLine() 
+ecrire : Console.ReadLine() int.parse(Console.ReadLine());
+objet apartir d une classe yahya : yahya y = new yahya();
+y.age - y.nom 
+
+si on indique pas la nature d une methode ou variables dans une classe , elle est private par defaut 
+
+Declaration du tableau : int[] T = new int[taille];
+Declaration du list : list<double> ls = new List<double>(); / ajout : ls.add(Valeur);  difference entre liste et table : table indiquer la taille (a ne pas depasse) liste on peut ne pas indiquer la taille mais les deux il faut indiquer le type de variable
+array meme que liste mais on peut ne pas indique le type : Arraylist ar = new ArrayList();    
+pour savoir la taille du liste / array apres la saisi : int L = (count.ar / count.ls);
+
+dictionary<string,string> /* (Key,Value)*/ n = new Dictionary<string,string>(); sert a donner la valeur d une key  
+
+  gestion des exceptions : try catch 
+    try{ int i = int.parse()Console.ReadLine()); si il arrive une erreur  }
+	catch{ Console.WriteLine("blablabla") si la comande precedante n est pas excecute alors cette comande va etre excecute sans l arret du programme }
+	 finally {suite du programme}
+
+variable d instance = variable normale
+variable de classe = une variable generale pour toute la classe : public static string prof , pour appele a cette variable : NomDeClasse.Prof = "yahya"; /* Static pour les methodes aussi*/
+
+get / set
+heritage : class Nom : NomClasseMere{}
